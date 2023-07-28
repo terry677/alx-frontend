@@ -224,6 +224,10 @@ a[href]:active {
   color: var(--color-primary);
 }
 
+.navbar-menu {
+  float: right;
+}
+
 .section {
   padding: var(--section-padding);
 }

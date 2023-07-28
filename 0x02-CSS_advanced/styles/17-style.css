@@ -230,6 +230,7 @@ a[href]:active {
 
 .section-header {
   text-align: var(--section-header-align);
+  padding: var(--section-header-padding);
 }
 .section-body {
   padding: var(--section-body-padding);
@@ -258,4 +259,7 @@ a[href]:active {
   width: 960px;
   margin-right: auto;
   margin-left: auto;
+}
+.footer {
+  padding: var(--footer-padding);
 }
