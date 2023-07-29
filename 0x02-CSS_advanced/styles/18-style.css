@@ -438,14 +438,6 @@ a:active {
   background-color: var(--color-light-grey);
 }
 
-.visually-hidden {
-  display: none;
-}
-
-.card-category {
-  color: var(--color-primary);
-}
-
 /* navbar starts */
 .navbar-menu {
   float: right;
@@ -463,6 +455,7 @@ a:active {
   font-weight: var(--nav-item-font-weight);
   font-size: var(--nav-item-font-size);
   letter-spacing: var(--nav-item-letter-spacing);
+  display: var(--nav-item-display);
   margin: var(--nav-item-margin);
 }
 
@@ -475,6 +468,16 @@ a:active {
   color: var(--nav-item-link-hover);
 }
 
+/* navbar starts */
+
+.visually-hidden {
+  display: none;
+}
+
+.card-category {
+  color: var(--color-primary);
+}
+
 .section {
   padding: var(--section-padding);
 }
@@ -483,7 +486,6 @@ a:active {
   text-align: var(--section-header-align);
   padding: var(--section-header-padding);
 }
-/* navbar ends */
 
 .section-body {
   padding: var(--section-body-padding);
