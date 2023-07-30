@@ -559,7 +559,7 @@ ul.row {
 }
 
 [data-section-theme="dark"] {
-  background: var(--color-black);
+  background-color: var(--color-black);
   --text-color: var(--color-white);
   --section-title-color: var(--color-white);
 }
