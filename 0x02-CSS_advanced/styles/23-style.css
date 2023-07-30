@@ -479,12 +479,6 @@ a:active {
   color: var(--color-primary);
 }
 
-[data-section-theme="dark"] {
-  background: var(--color-black);
-  --text-color: var(--color-white);
-  --section-title-color: var(--color-white);
-}
-
 .section {
   padding: var(--section-padding);
 }
@@ -562,6 +556,12 @@ ul.row {
 
 .footer {
   padding: var(--footer-padding);
+}
+
+[data-section-theme="dark"] {
+  background: var(--color-black);
+  --text-color: var(--color-white);
+  --section-title-color: var(--color-white);
 }
 
 .footer-address {
