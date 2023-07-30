@@ -568,10 +568,10 @@ ul.row {
   color: var(--text-color);
 }
 
-.social-links {
+.social-link {
   display: block;
 }
 
-.social-links > svg {
+.social-link > svg {
   color: var(--text-color);
 }
