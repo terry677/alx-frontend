@@ -558,7 +558,7 @@ ul.row {
   padding: var(--footer-padding);
 }
 
-[data-section-theme] {
+[data-section-theme="dark"] {
   background: var(--color-black);
   --text-color: var(--color-white);
   --section-title-color: var(--color-white);
